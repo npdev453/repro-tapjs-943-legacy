@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": false,
+        "target": "es2021",
+
+        // "module": "CommonJS",
+        // "moduleResolution": "node",
+
+        // fixes tap, but broke node-fetch and other random modules 
+        "module": "Node16",
+        "moduleResolution": "Node16",
+    },
+    "include": [
+        "src/**/*",
+    ],
+}

@@ -1,0 +1,24 @@
+{
+  "name": "repro-tapjs-943-legacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro:build": "tsc --noEmit",
+    "repro:build-watch": "tsc --watch --noEmit",
+    "repro:eslint": "eslint ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "^18.4.3",
+    "typescript": "^5.2.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0"
+  }
+}
