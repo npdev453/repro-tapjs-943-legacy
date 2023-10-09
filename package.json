@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tap": "^18.4.3",
-    "typescript": "^5.2.2",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "tap": "^18.4.4",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.25",

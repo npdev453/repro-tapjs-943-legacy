@@ -5,7 +5,9 @@
         "target": "es2021",
 
         "module": "CommonJS",
-        "moduleResolution": "node",
+        "moduleResolution": "Node10",
+
+        "esModuleInterop": true
 
         // fixes tap, but broke node-fetch and other random modules 
         // "module": "Node16",
